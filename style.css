@@ -1,0 +1,99 @@
+body { text-align: center;
+background-color: rgb(182, 199, 255);}
+
+
+.all {height: 700px;
+width: 450px;
+background-color:white;
+margin: auto;
+border-radius: 12px;
+font-family: Arial, Helvetica, sans-serif;
+box-shadow: 1px 1px 15px rgb(68, 68, 68);
+margin: auto;
+position: relative;
+top: 15px;}
+
+
+.music { display: flex;
+text-align: left;
+background-color: rgb(245, 244, 255);
+border-radius: 12px;
+height: 10%;
+width: 70%;
+position: relative;
+left: 70px;
+top: 50px;
+box-shadow: 0.2px 0.2px 15px rgb(228, 228, 228);}
+
+.end { position: relative;
+top: 120px;}
+
+
+.top-pics { border-radius: 12px 12px 0 0;}
+
+
+.music-icon { height: 70%;
+position: relative;
+left: 20px;
+top: 12px;}
+
+
+.music-name {position: relative;
+top: 18px;
+left: 45px;}
+
+
+.change-link {position: relative;
+top: 28px;
+left: 90px;
+font-size: 13px;}
+
+
+p {position: relative;
+top: 40px;
+font-size: 14px;
+color: rgb(110, 110, 110);}
+
+
+h1 {position: relative;
+top: 20px;
+color: rgb(44, 46, 110);}
+
+
+
+button {height: 37px;
+width: 70%;
+background-color: rgb(119, 95, 255);
+border-radius: 12px;
+border-style: hidden;
+color: white;
+position: relative;
+bottom: 25px;
+font-weight: bold;
+box-shadow: 0 1px 15px rgb(110, 110, 110);}
+
+
+strong {font-size: 14px;
+color: rgb(44, 46, 110);}
+
+
+em { font-size: 13px;
+color: rgb(116, 116, 116);}
+
+
+.cancel { font-size: 14px;
+color: rgb(94, 94, 94);
+border-style: none!important;}
+
+
+.backgrond {z-index: -1;
+    position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+filter: hue-rotate(0deg);}
+
+button:hover {background-color: rgb(172, 159, 247);}
+
+
+.cancel:hover {color: rgb(185, 185, 185);}
